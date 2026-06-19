@@ -7,7 +7,6 @@ export const TEMPLATE = {
       items: [
         { text: "ID / Driver's license",    requires: {} },
         { text: 'Wallet',                   requires: {} },
-        { text: 'Passport',                 requires: { destination: 'international' } },
         { text: 'Copies of documents',      requires: { destination: 'international' } },
         { text: 'Travel insurance info',    requires: { destination: 'international' } }
       ]
@@ -47,7 +46,6 @@ export const TEMPLATE = {
     {
       name: 'Travel essentials',
       items: [
-        { text: 'Boarding pass / tickets',  requires: {} },
         { text: 'Foreign currency / card',  requires: { destination: 'international' } },
         { text: 'Snacks',                   requires: {} },
         { text: 'Water bottle',             requires: {} }
